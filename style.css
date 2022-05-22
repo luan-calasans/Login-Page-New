@@ -87,30 +87,34 @@ input:hover {
   border: 2px solid var(--primary-color);
 }
 
-#password, #password:hover path[stroke*='#AFB6C2']{
-  stroke: var(--primary-color);
-} 
-
-#password, #password:focus path[stroke*='#AFB6C2']{
-  stroke: var(--primary-color);
-} 
-
-#email, #email:hover path[stroke*='#A9AFB9']{
+#password,
+#password:hover path[stroke*='#AFB6C2'] {
   stroke: var(--primary-color);
 }
 
-#email, #email:focus path[stroke*='#A9AFB9']{
+#password,
+#password:focus path[stroke*='#AFB6C2'] {
   stroke: var(--primary-color);
 }
 
-#checkbox{
+#email,
+#email:hover path[stroke*='#A9AFB9'] {
+  stroke: var(--primary-color);
+}
+
+#email,
+#email:focus path[stroke*='#A9AFB9'] {
+  stroke: var(--primary-color);
+}
+
+#checkbox {
   position: relative;
-  
+
   cursor: pointer;
-  
+
   top: 2px;
   left: 0;
-  
+
   height: 0.938rem;
   width: 0.938rem;
 
@@ -120,8 +124,7 @@ input:hover {
   border-radius: 2px;
 }
 
-
-.user-data:focus-visible{
+.user-data:focus-visible {
   outline: none;
   border: 2px solid var(--primary-color);
 }
@@ -142,12 +145,11 @@ input:hover {
   margin-bottom: 1rem;
 }
 
-#checkbox{
+#checkbox {
   visibility: visible;
 }
 
 #container #rememberMe {
-
   margin-right: 20rem;
 }
 
@@ -163,7 +165,9 @@ input:hover {
 
   cursor: pointer;
 
+  font-size: 1.1rem;
   font-weight: 700;
+
   width: 100%;
 
   padding: 0.6rem;
@@ -175,6 +179,10 @@ input:hover {
   border-radius: 4px;
 }
 
+span {
+  font-size: 0.8rem;
+}
+
 a {
   cursor: pointer;
 
@@ -183,13 +191,17 @@ a {
   font-weight: bold;
 }
 
-#forgetPassword{
+#forgetPassword {
   cursor: pointer;
 
-  text-transform:initial;
+  text-transform: initial;
   font-weight: bold;
 
-  padding-left: 10rem;
+  padding-top: 0.23rem;
+
+  font-size: 0.8rem;
+
+  padding-left: 1rem;
 
   color: var(--primary-color);
 }
