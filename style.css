@@ -1,0 +1,205 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+* {
+  color: var(--text-base);
+  background-color: var(--background);
+
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVIGATION */
+
+nav {
+  margin-top: 2.5rem;
+  margin-inline: 1.25rem;
+}
+
+#company {
+  margin-bottom: 1.875rem;
+}
+
+#navigation-list li {
+  text-decoration: none;
+
+  list-style: none;
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  gap: 1rem;
+}
+
+#navigation-list h1 {
+  color: var(--text-title);
+}
+
+/* HEADER */
+
+header {
+  margin-inline: 20px;
+}
+
+label {
+  position: absolute;
+
+  margin-block: 8px;
+  margin-inline: 6px;
+}
+
+input {
+  border: none;
+
+  width: 100%;
+
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  text-align: justify;
+
+  border: 2px solid;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+}
+
+input:hover {
+  transition: 300ms;
+  border: 2px solid var(--primary-color);
+}
+
+#password, #password:hover path[stroke*='#AFB6C2']{
+  stroke: var(--primary-color);
+} 
+
+#password, #password:focus path[stroke*='#AFB6C2']{
+  stroke: var(--primary-color);
+} 
+
+#email, #email:hover path[stroke*='#A9AFB9']{
+  stroke: var(--primary-color);
+}
+
+#email, #email:focus path[stroke*='#A9AFB9']{
+  stroke: var(--primary-color);
+}
+
+#checkbox{
+  position: relative;
+  
+  cursor: pointer;
+  
+  top: 2px;
+  left: 0;
+  
+  height: 0.938rem;
+  width: 0.938rem;
+
+  background-color: #191816;
+  border: 1px solid var(--form-background);
+
+  border-radius: 2px;
+}
+
+
+.user-data:focus-visible{
+  outline: none;
+  border: 2px solid var(--primary-color);
+}
+
+#password {
+  margin-bottom: 2rem;
+}
+
+#container ul {
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  text-align: center;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+#checkbox{
+  visibility: visible;
+}
+
+#container #rememberMe {
+
+  margin-right: 20rem;
+}
+
+#container li strong {
+  color: var(--primary-color);
+}
+
+#enter-button {
+  text-align: center;
+  text-transform: uppercase;
+
+  border: 1px solid black;
+
+  cursor: pointer;
+
+  font-weight: 700;
+  width: 100%;
+
+  padding: 0.6rem;
+  margin-bottom: 1.2rem;
+
+  color: var(--background);
+  background-color: var(--primary-color);
+
+  border-radius: 4px;
+}
+
+a {
+  cursor: pointer;
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+#forgetPassword{
+  cursor: pointer;
+
+  text-transform:initial;
+  font-weight: bold;
+
+  padding-left: 10rem;
+
+  color: var(--primary-color);
+}
+
+#dontHaveAccount p {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+#register {
+  font-weight: bold;
+  color: var(--primary-color);
+}
