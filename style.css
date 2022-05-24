@@ -24,9 +24,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* NAVIGATION */
+/* HEADER */
 
-nav {
+header {
   margin-top: 2.5rem;
   margin-inline: 1.25rem;
 }
@@ -35,7 +35,7 @@ nav {
   margin-bottom: 1.875rem;
 }
 
-#navigation-list li {
+#header-list li {
   text-decoration: none;
 
   list-style: none;
@@ -49,13 +49,13 @@ nav {
   gap: 1rem;
 }
 
-#navigation-list h1 {
+#header-list h1 {
   color: var(--text-title);
 }
 
-/* HEADER */
+/* MAIN */
 
-header {
+main {
   margin-inline: 20px;
 }
 
